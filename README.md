@@ -1,46 +1,55 @@
-# PROJECT NAME
+# Worm Bank Expense Reimbursement
 
 ## Project Description
 
-Here goes your awesome project description!
+Worm Bank Expense Reimbursement, as its name implies, manages the process of reimbursing employees for 
+expenses incurred while on company time. All employees in the company can login and submit requests 
+for reimbursement and view their past tickets and pending requests. Finance managers can log in and 
+view all reimbursement requests and past history for all employees in the company. 
+Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 ## Technologies Used
 
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Servlets 
+* Java
+* JavaScript
+* Bootstrap
+* JDBC
+* HTML
+* CSS
+* Tomcat
+* Git
+* Maven
 
 ## Features
 
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Allows for Manager oversite of employee requests
+* Interactive web design using bootstrap
+* Http interaction with JSON data
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Finish Cookie session handeling
+* Complete paging style return of employee records
 
 ## Getting Started
-   
-(include git clone command)
-(include all environment setup steps)
 
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+Clone the repository
+(https://github.com/xaxchkuget/ExpenseReimbursementSystem.git)
+> using your favorite bash or cmd shell 
 
-- All the `code` required to get started
-- Images of what it should look like
+Build and run
+> build and run the main file directory as a maven application
+
+Navigate to the login page
+> Navigate via a browser to your local host directory
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
-
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
+> employes are pre registered in the system and must log in either as an employee to create a request
+> Or as an admin, if they are, to review submitted requests
 
 ## License
 
-This project uses the following license: [<license_name>](<link>).
+This project uses the following license: [<MIT>](<https://github.com/xaxchkuget/ExpenseReimbursementSystem/blob/main/LICENSE>).
 
